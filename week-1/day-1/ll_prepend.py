@@ -47,7 +47,7 @@ class LinkedList:
     #     return pop_value
 
     def prepend(self, value):
-        new_node = Node(value)
+        new_node = Node(value) 
         if self.head is None:
             self.head = new_node
             self.tail = new_node
